@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Куликова</title>
+
+</head>
+<style type="text/css">
+
+</style>
+<body>
+<p><button id="button" onclick="changeColor();">Сменить фон</button>
+
+    <script>
+		function getRandomInt(min, max) {
+			let rand = Math.random() * (max - min) + min;
+			return Math.round(rand);
+		}
+
+		function randcolor() {
+			return 'rgb(' + (getRandomInt(0, 256)) + ',' + (getRandomInt(0, 256)) + ',' + (getRandomInt(0, 256)) + ')';
+		}
+
+		function changeColor() {
+			document.body.style.background = randcolor();
+		}
+    </script>
+</body>
+</html>

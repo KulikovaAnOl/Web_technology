@@ -1,0 +1,70 @@
+﻿<html>
+<head>
+	<meta charset="utf-8">
+	<title>
+     Куликова
+	</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+</head>
+<style type="text/css">
+    body{
+        background-color: #66CDAA;
+    }
+</style>
+<div class="err1">
+	<div class="login">
+	    <h3>Какая степень паники у котика?</h3>
+	    <img src="panika.png">
+	    <table>
+        <tr>
+            <td width="180px">Первая</td>
+            <td width="30px"><input type="radio" id="1" name="radio" value="1"></td>
+            <td width="100px"><span id='message1'></span></td>
+        </tr>
+        <tr>
+            <td>Вторая</td>
+            <td><input type="radio" id="2" name="radio" value="2"></td>
+            <td><span id='message2'></span></td>
+        </tr>
+        <tr>
+            <td>Четвертая</td>
+            <td><input type="radio" id="3" name="radio" value="3"></td>
+            <td><span id='message3'></span></td>
+        </tr>
+        <tr>
+            <td>Он спокоен</td>
+            <td><input type="radio" id="4" name="radio" value="4"></td>
+            <td><span id='message4'></span></td>
+        </tr>
+        </table>
+	</div>
+
+		<input type="submit" id="submit" class="submit" value="Отправить">
+
+</div>
+
+<script>
+var message1=0;   var message2=0;
+var  message3=0;   var  message4=0;
+
+$(document).ready(function () {
+    $("#submit").on("click", function () {
+        var value = $("input[name='radio']:checked").val();
+            
+        switch(value){
+            case "1":   message1++;   break;
+            case "2":   message2++;   break;
+            case "3":   message3++;   break;
+            case "4":   message4++;   break;
+        }
+        sum=message1+ message2+ message3+ message4;
+
+        $("#message1").html(( message1/sum*100).toFixed(2) + "%");
+        $("#message2").html(( message2/sum*100).toFixed(2) + "%");
+        $("#message3").html(( message3/sum*100).toFixed(2) + "%");
+        $("#message4").html(( message4/sum*100).toFixed(2) + "%");
+    });
+});
+</script>
+
+</html>

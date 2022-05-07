@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Куликова</title>
+</head>
+
+<style type="text/css">
+
+	#left{
+		position: absolute;
+		top: 100px;
+		left: 50px;
+	}
+	#right{
+		position: absolute;
+		top: 100px;
+		left: 160px;
+
+	}
+	#up{
+		position: absolute;
+		top: 70px;
+		left: 110px;
+
+	}	
+	#down{
+		position: absolute;
+		top: 100px;
+		left: 110px;
+	}
+
+
+</style>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript">
+</script>
+<body>
+
+
+</body>
+</html>
+
+
+<script type="text/javascript">
+$(function() {
+$(window).scroll(function() {
+if($(this).scrollTop() != 0) {
+$('#toTop').fadeIn();
+} else { 
+$('#toTop').fadeOut();
+}
+});
+$('#toTop').click(function() {
+$('body,html').animate({scrollTop:0},800);
+});
+}); 
+</script>
+    <head>
+
+    <script src="jquery-3.6.0.min.js"></script>
+
+    <script language="JavaScript"> 
+
+	    function left(){
+	    $("#kriska").css("position", "relative");
+	    $("#kriska").animate({right: "+=100px", 'width': '-=0px'}, 100);}
+	    function right(){
+	    $("#kriska").css("position", "relative");
+	    $("#kriska").animate({right: "-=100px", 'width': '-=0px'}, 100);}
+	    function up(){
+	    $("#kriska").css("position", "relative");
+	    $("#kriska").animate({top: "-=100px", 'height': '-=0px'}, 100);}
+	    function down(){
+	    $("#kriska").css("position", "relative");
+	    $("#kriska").animate({top: "+=100px", 'height': '-=0px'}, 100);}
+    </script>
+    </head>
+<body>
+
+<button id="left" type="button" onClick="left()" >влево</button>
+<button id="up" type="button" onClick="up()"  >вверх</button>
+<button id="down" type="button" onClick="down()"  >вниз</button>
+<button id="right" type="button" onClick="right()" >вправо</button>
+
+<p><img id="kriska" src="kriska.jpg" height="400" width="900" style="margin:200px"></img></p>
+</form></p>
+</body>
+</html>

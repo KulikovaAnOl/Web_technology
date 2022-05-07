@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Куликова</title>
+</head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<body>
+<script>
+        $(document).mousemove(function(e){
+            $("#x").val(e.pageX);
+            $("#y").val(e.pageY);
+        }); 
+    </script>
+</head>
+
+<body>
+    <h4>Координаты курсора:</h4>
+    <p>X: <input type="text"  id="x" name="x" />
+    <p>Y: <input type="text"  id="y" name="y" />
+
+</body>
+</html>

@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Куликова</title>
+</head>
+<style type="text/css">
+body{
+    background-color: #FEB2FF;
+}
+</style>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript">
+    function run() {
+var kek=0;
+//////////////////////////////////////////////////////
+        var name = $("#name").val();
+
+         if (!name) {
+        alert('Заполните поле имени');
+        document.form.name.style.borderColor="red";
+        }
+        else{
+            document.form.name.style.borderColor="green";
+            kek++;
+        }
+
+        //////////////////////////////////////////////
+        var email = $("#email").val();
+         if (!email) {
+         alert('Заполните поле почты');
+        document.form.email.style.borderColor="red";
+        }
+        else if(!email.includes('@')){
+
+         alert('Поле почты должен содержать символ @');
+        document.form.email.style.borderColor="red";
+        }
+        else{
+            document.form.email.style.borderColor="green";
+            kek++;
+        }
+
+///////////////////////////      
+        var pass = $("#password").val();
+        var pass2 = $("#password2").val();
+
+         if (!pass)
+        {
+            alert('Заполните поле пароля');
+            document.form.password.style.borderColor="red";
+        }
+        else if(pass.length<8){
+             alert('Пароль должен быть больше 8 символов');
+            document.form.password.style.borderColor="red";           
+        }
+        else{
+            
+            document.form.password.style.borderColor="green";
+            kek++;
+        }
+
+////////////////////
+          if (!pass2)
+        {
+            alert('Заполните поле пароля 2');
+            document.form.password2.style.borderColor="red";
+        }
+        else if (pass2!==pass){
+            alert('Пароли не совпадают');
+            document.form.password2.style.borderColor="red";
+        }
+        else {
+            document.form.password2.style.borderColor="green";
+            kek++;
+        }
+//////////////////////
+        var theme = $("#theme").val();
+///////////////////////
+        var message = $("#message").val();
+        if (!message) {
+              alert('Заполните поле сообщения');
+            document.form.message.style.borderColor="red";
+        }
+        else if (message.length<10) {
+               alert('Поле сообщения должно иметь более 10 символов');
+            document.form.message.style.borderColor="red";
+        }
+        else{
+            document.form.message.style.borderColor="green";
+            kek++;
+        }
+if(kek==5) alert("Ок.Принято");
+
+
+    return false;
+    }
+
+
+function clean(){
+document.form.name.style.borderColor="#9F9F9F";
+document.form.email.style.borderColor="#9F9F9F";
+document.form.password.style.borderColor="#9F9F9F";
+document.form.password2.style.borderColor="#9F9F9F";
+document.form.theme.style.borderColor="#9F9F9F";
+document.form.message.style.borderColor="#9F9F9F";
+kek=0;
+}
+  
+</script>
+<body>
+<form name="form" id="form">
+
+
+<label for="name">Имя</label><br>
+<input type="text" name="name" id="name">
+<br>
+
+<label for="email">Email</label><br>
+<input type="email" name="email" id="email">
+<br>
+
+
+<label for="password">Пароль</label><br>
+<input type="password" name="password" id="password">
+<br>
+
+
+<label for="password2">Пароль</label><br>
+<input type="password" name="password2" id="password2" >
+<br>
+
+<label for="theme">Тема сообщения</label><br>
+<input type="text" id="theme" name="theme" />
+<br>
+
+<label for="message">Сообщение</label><br>
+<textarea type="text" id="message" name="message"/></textarea>
+<br>
+
+
+<input type="button" id="done" onclick="run()" value="Отправить">
+
+<input type="reset" onclick="clean()" value="Очистить форму"  >
+
+<br><br>
+
+</form>
+
+</body>
+</html>

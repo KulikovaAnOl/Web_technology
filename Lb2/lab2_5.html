@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Куликова</title>
+</head>
+<body>
+<form>
+<h3>Перетащите картинку</h3>
+<div class="drag">
+<div id="mir">
+<img src="ribka.jpg" height="400" width="500" ></img>
+</div>
+</div>
+</form>
+<script>
+	let mir = document.getElementById('mir'); 
+	mir.onmousedown = function(e) { 
+	    let coords = getCoords(mir); 
+	    let shiftX = e.pageX - coords.left; 
+	    let shiftY = e.pageY - coords.top; 
+	    mir.style.position = 'absolute'; 
+	    document.body.appendChild(mir); 
+        moveAt(e); 
+	    mir.style.zIndex = 1000;
+	        function moveAt(e) { 
+	        mir.style.left = e.pageX - shiftX + 'px'; 
+	        mir.style.top = e.pageY - shiftY + 'px'; 
+	        } 
+	        document.onmousemove = function(e) { 
+	        moveAt(e); 
+	        }; 
+	        mir.onmouseup = function() { 
+	        document.onmousemove = null; 
+	        mir.onmouseup = null; 
+	        }; 
+	} 
+	mir.ondragstart = function() { 
+	    return false; 
+	    }; 
+	function getCoords(elem) { 
+	    let box = elem.getBoundingClientRect(); 
+	    return { 
+	    top: box.top + pageYOffset, 
+	    left: box.left + pageXOffset 
+        }; 
+    } 
+</script>
+
+</body>
+</html> 

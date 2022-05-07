@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Куликова</title>
+	<script language="JavaScript">
+		function function1() {
+			arr = new Array("геометрия", "алгебра", "общество", "история");
+			document.write("Гуманитарные предметы: " + arr.slice(2, 4) + "<br>");
+			document.write("Точные предметы: " + arr.slice(0, 2) + "<br>");
+		}
+	</script>
+</head>
+<body>
+	<script language="JavaScript">
+		year = new Array("декабрь", "январь", "февраль", "март", "апрель", "май",
+			"июнь", "июль", "август", "сентябрь", "октябрь", "ноябрь");
+		summer = new Array();
+		summer = year.slice(6, 9);
+		document.write("<p>" + summer + "</p>");
+		function1();
+	</script>
+</body>
+</html>
