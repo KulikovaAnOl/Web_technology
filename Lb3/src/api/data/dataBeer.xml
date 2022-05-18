@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    <item>
+        <id>1</id>
+        <title>DaS пиваS</title>
+        <picture>https://ic.pics.livejournal.com/mybeerreview/77845610/83415/83415_original.jpg</picture>
+        <rate>9</rate>
+        <value>Das Пиваs. Shopping  retail. Магазин разливных напитков Закуски на любой вкус Предзаказ Доставка без перерыва, без выходных 87055429582</value>
+    </item>
+    <item>
+        <id>2</id>
+        <title>Beer Mania</title>
+        <picture>https://forklog.com/wp-content/uploads/u4RIR5T-e1496082087606.jpg</picture>
+        <rate>9</rate>
+        <value>Beer Mania - Первый бельгийский пивной интернет-магазин. У нас есть широкий ассортимент отличного бельгийского пива, и если вы его не видите, мы сделаем все возможное, чтобы достать его за ...</value>
+    </item>
+    <item>
+        <id>3</id>
+        <title>Главпивторг</title>
+        <picture>https://paperpaper.ru/wp-content/uploads/2016/09/5ynuOtApEeU.jpg</picture>
+        <rate>8</rate>
+        <value>
+        Мы готовим по фирменным рецептам исключительно из натуральных продуктов. по средам в кафе-закусочной</value>
+    </item>
+    <item>
+        <id>4</id>
+        <title>Алкомаркет</title>
+        <picture>https://madcats.ru/wp-content/uploads/2017/08/04_bykov1-e1502736078428.jpg</picture>
+        <rate>8</rate>
+        <value>
+        Более 400 сортов бутылочного и разливного пива и сидра. В коллекции редкие сорта со всего мира. Консультации пивных сомелье.</value>
+        </item>
+    <item>
+        <id>5</id>
+        <title>Кб</title>
+        <picture>https://ic.pics.livejournal.com/mybeerreview/77845610/83415/83415_original.jpg</picture>
+        <rate>7</rate>
+        <value>
+        Магазин разливных напитков Закуски на любой вкус Предзаказ Доставка без перерыва, без выходных</value>
+        </item>
+    <item>
+        <id>6</id>
+        <title>Пивмаг</title>
+        <picture>https://forklog.com/wp-content/uploads/u4RIR5T-e1496082087606.jpg</picture>
+        <rate>5</rate>
+        <value>
+       Мы готовим по фирменным рецептам исключительно из натуральных продуктов. по средам в кафе-закусочной</value>
+        </item>
+    <item>
+        <id>7</id>
+        <title>Пиво рядом</title>
+        <picture>https://paperpaper.ru/wp-content/uploads/2016/09/5ynuOtApEeU.jpg</picture>
+        <rate>5</rate>
+        <value>
+        Более 400 сортов бутылочного и разливного пива и сидра. В коллекции редкие сорта со всего мира. Консультации пивных сомелье.</value>
+        </item>
+    <item>
+        <id>8</id>
+        <title>Kompliziert</title>
+        <picture>https://madcats.ru/wp-content/uploads/2017/08/04_bykov1-e1502736078428.jpg</picture>
+        <rate>10)</rate>
+        <value>
+        Магазин разливных напитков Закуски на любой вкус Предзаказ Доставка без перерыва, без выходных</value>
+        </item>
+    <item>
+        <id>9</id>
+        <title>Гараж</title>
+        <picture>https://ic.pics.livejournal.com/mybeerreview/77845610/83415/83415_original.jpg</picture>
+        <rate>5</rate>
+        <value>
+        Первый бельгийский пивной интернет-магазин. У нас есть широкий ассортимент отличного бельгийского пива, и если вы его не видите, мы сделаем все возможное, чтобы достать его за ..</value>
+        </item>
+    <item>
+        <id>10</id>
+        <title>Бочонок</title>
+        <picture>https://forklog.com/wp-content/uploads/u4RIR5T-e1496082087606.jpg</picture>
+        <rate>7</rate>
+        <value>
+        Мы готовим по фирменным рецептам исключительно из натуральных продуктов. по средам в кафе-закусочной</value>
+
+        </item>
+    <item>
+        <id>11</id>
+        <title>Zatecky Gus</title>
+        <picture>https://paperpaper.ru/wp-content/uploads/2016/09/5ynuOtApEeU.jpg</picture>
+        <rate>8</rate>
+        <value>
+        Магазин разливных напитков Закуски на любой вкус Предзаказ Доставка без перерыва, без выходных</value>
+        </item>
+    <item>
+        <id>12</id>
+        <title>Verwickelt</title>
+        <picture>https://madcats.ru/wp-content/uploads/2017/08/04_bykov1-e1502736078428.jpg</picture>
+        <rate>6</rate>
+        <value>
+        Более 400 сортов бутылочного и разливного пива и сидра. В коллекции редкие сорта со всего мира. Консультации пивных сомелье.</value>
+        </item>
+</items>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    <item>
+        <id>1</id>
+        <name>Саня</name>
+        <email>sdgfgjh@mail.ru</email>
+        
+        <value>
+           Из двух зол выбирают пиво!
+        </value>
+    </item>
+    <item>
+        <id>2</id>
+        <name>Ильнур</name>
+        <email>fghfgh@mail.ru</email>       
+        <value>Лучше уж в пиве 3 градуса, чем на улице минус 30!</value>
+    </item>
+    <item>
+        <id>3</id>
+        <name>Илья</name>
+        <email>fghfgh@yandex.ru</email>   
+        <value>Лучше стоять в очереди за своим пивом, чем лежать под очередью за чужую справедливость.</value>
+    </item>
+    <item>
+        <id>4</id>
+        <name>Карим</name>
+        <email>s@gmail.com</email>             
+        <value>Кто ходит с пивом в туалет, тот поступает мудро.</value>
+    </item>
+    <item>
+        <id>5</id>
+        <name>Имя </name>
+        <email>авпвап@gmail.com</email>               
+        <value>Квас не пиво, хоть и шипит игриво.</value>
+    </item>
+    <item>
+        <id>6</id>
+        <name>Игорёк</name>
+        <email>апа@mail.ru</email>                 
+        <value>
+            Как пиво не охлаждай, оно все равно кончится.
+        </value>
+    </item>
+    
+<item><id>7</id><name>gffjf</name><email>@</email><value>gdfghdfhg</value></item></items>
